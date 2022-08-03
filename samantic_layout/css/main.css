@@ -1,0 +1,35 @@
+body {
+  margin:0px;
+  font-family:sans-serif;
+}
+header {
+  height:80px;
+  background-color:green;
+  padding:10px;
+  color:tomato;
+}
+nav ul {
+  display:flex;
+  padding-left:0px;
+}
+nav li {
+  margin-right:25px;
+  list-style-type:none;
+}
+
+main {
+  background-color: lightgreen;
+  padding: 20px 15px;
+}
+main section {
+  background-color: grey;
+  padding: 15px 10px;
+  margin-bottom: 5px;
+}
+footer{
+  background-color: black;
+  color:tomato;
+  padding:5px;
+  margin-top: 5px;
+
+}
