@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body {
+  margin:0px;
+}
+
+header {
+  background-color: salmon;
+  padding: 30px;
+  font-family:"Indie Flower" , "Comic Sans" , cursive;
+}
+table {
+  font-family: "Indie Flower" , cursive;
+  margin:auto;
+}
+td {
+padding:5px 10px;
+font-size: 14pt;
+}
+th {
+padding: 5px 10px;
+background-color: #D3EEEE;
+font-size: 14pt;
+color: salmon;
+}
+tr {
+  background:salmon;
+}
+tr:hover {
+  background:#D3EEEE
+}
