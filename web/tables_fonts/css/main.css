@@ -6,27 +6,79 @@ body {
 }
 
 header {
-  background-color: salmon;
+  background-color: #3F2F2F;
   padding: 30px;
   font-family:"Indie Flower" , "Comic Sans" , cursive;
+  color:#FF9090;
 }
 table {
   font-family: "Indie Flower" , cursive;
   margin:auto;
+  width: 80%;
+  border-collapse: collapse;
+  border:5px solid #3F2F2F;
 }
 td {
 padding:5px 10px;
 font-size: 14pt;
+
 }
 th {
 padding: 5px 10px;
-background-color: #D3EEEE;
-font-size: 14pt;
-color: salmon;
+background-color: #3F2F2F;
+font-size: 16pt;
+color: #FF9090;
+text-align:left;
 }
 tr {
-  background:salmon;
+  background:#FF9090;
+  border-bottom:3px solid #3F2F2F;
+}
+th, td {
+  padding:5px;
 }
 tr:hover {
-  background:#D3EEEE
+  background:#3F2F2F;
+  color:#FF9090;
+}
+header {
+  background: radial-gradient(#FF9090, #3F2F2F);
+  padding: 20px;
+  background-position: left top;
+  background-size: 200% 200%;
+  color: #FF9090;
+}
+nav {
+background-color: #3F2F2F;
+}
+nav ul {
+  display:flex;
+  padding:20px;
+  margin:auto;
+}
+nav a {
+  color:#FF9090;
+}
+nav li {
+  margin-right:20px;
+  list-style-type: none;
+}
+footer {
+  color:#FF9090;
+}
+footer ion-icon {
+  width:100px;
+  height:100px;
+}
+#pizza:hover {
+  color:#3F2F2F;
+}
+#fish:hover {
+  color: #3F2F2F;
+}
+#burger:hover {
+  color:#3F2F2F;
+}
+#icecream:hover {
+  color:#3F2F2F;
 }
