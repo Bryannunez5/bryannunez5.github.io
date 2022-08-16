@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rubik+Dirt&display=swap');
+
+
+body {
+  margin:0px;
+  background:azure
+}
+.header-top{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:20px;
+  background:darkseagreen;
+}
+.header-item {
+  flex:1;
+}
+.right-text {
+  text-align:right;
+}
+nav {
+  background: lightskyblue;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 0px;
+  font-family:orbitron;
+}
+nav ul {
+  padding-left:0px;
+  margin:0;
+  display:flex;
+}
+nav li {
+  list-style-type:none;
+  padding:10px 20px;
+}
+.nav-right ul {
+  flex-direction: column;
+  text-align:right;
+}
+.nav-right li {
+  padding:0px 20px;
+}
+footer {
+  background: darkslategray;
+  display:flex;
+  justify-content: space-between;
+}
+.footer-right, .footer-left {
+  height:500px;
+  border: 2px solid green;
+}
+.footer-left {
+  flex:1;
+}
+.footer-right{
+  flex:2;
+}
+/* Grid Code */
+
+.grid-wrapper {
+  display:grid;
+  grid-template-columns:auto auto auto auto;
+  column-gap: 10px;
+  row-gap:10px;
+  width: 80%;
+  margin:10% auto;
+}
+.grid-item {
+  background: chartreuse;
+  border:2px solid chartreuse;
+  display:flex;
+  align-items:center;
+}
+.grid-item img {
+  width:100%;
+}
+/* Carousel Code */
+.crousel-item img {
+  max-height:500px;
+}
+/* Bootstrap Code */
+.row .col {
+  background-color: blanchedalmond;
+}
+.col img {
+  width:100%;
+}
