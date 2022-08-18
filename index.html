@@ -3,24 +3,102 @@
   <head>
     <meta charset="utf-8">
     <title>Bryans' Portal Stuff</title>
+    <link rel="stylesheet" href="./navbar1.css">
     <style media="screen">
-    body {
-      background-color:purple;
-    }
-    ul a {
-      border:2px solid green;
-      background-color:pink;
-      padding:10px;
-    }
-    li {
-      padding:15px;
-    }
+      body {
+        background-color: darkcyan;
+        font-family:monospace;
+      }
+      main {
+        margin:100px;
+        border:2px solid black;
+      }
+      header {
+        background-color:cyan;
+        padding:20px;
+        text-align: center;
+        border-bottom:2px solid black;
+      }
+      nav {
+        border-bottom: 2px solid black;
+      }
+      nav ul {
+        display:flex;
+        justify-content:space-around;;
+        padding-left:0px;
+
+        /* border Canary: */
+        /* border: 1px solid red; */
+      }
+      nav li {
+        list-style-type: none;
+        padding:0px 10px;
+      }
+      nav a {
+        color:#333333;
+        text-decoration: none;
+      }
+      nav a:hover {
+        color:red;
+        text-decoration: underline;
+        font-weight:bold;
+        font-style:italic;
+      }
+      section {
+        padding:25px;
+      }
+      .card {
+        margin:20px 0px;
+        border:2px dashed black;
+        padding:50px;
+      }
+      section .card:hover {
+        color:red;
+        text-decoration: underline;
+        font-weight:bold;
+        font-style:italic;
+      }
+      footer {
+
+      }
     </style>
+    <title>NavBar 1 - Bryan Nunez - GDWD 107 - 07/27/22</title>
   </head>
   <body>
-    <h1>My Portal</h1>
-    <a href="./Midnight/index.html">Midnight</a>
-      <a href="./Cute_Whale/index.html">Cute Whale Co.</a>
-      <a href="./Wiki-page_7-25-22/index.html">Wiki page - Demon Cat</a>
+    <main>
+      <header>
+        <h1>My Portal</h1>
+      </header>
+      <!-- <nav>
+        <ul>
+          <li> <a href="#">Home</a> </li>
+          <li> <a href="#">Services</a> </li>
+          <li> <a href="#">Booking</a> </li>
+          <li> <a href="#">Contact</a> </li>
+          <li> <a href="#">Information</a> </li>
+        </ul>
+      </nav> -->
+      <section>
+        <div class="card">
+          <h3>Midnight</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="card">
+          <h3>Cute Whale</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="card">
+          <h3>Wiki Page</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="card">
+          <h3>Header</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+      <footer>
+
+      </footer>
+    </main>
   </body>
 </html>
