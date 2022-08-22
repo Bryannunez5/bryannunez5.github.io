@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+
+body {
+  margin:0px;
+  font-family: "Aboreto", serif;
+
+}
+header {
+
+}
+nav {
+  padding:20px;
+}
+nav ul {
+  padding-left:0;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+  margin:auto;
+}
+nav li {
+  list-style-type: none;
+}
+nav a {
+  color:grey;
+  text-decoration:none;
+}
