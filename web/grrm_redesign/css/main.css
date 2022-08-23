@@ -9,26 +9,31 @@ body {
 }
 header {
 display:flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 background: whitesmoke;
 padding:25px;
 }
 nav {
-  padding:20px;
+  padding:0px 20px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+.navbar {
+  padding: 0px;
 }
 nav ul {
   padding-left:0;
   display:flex;
   justify-content: space-between;
   width:100%;
-  margin:auto;
+  margin-bottom:0;
 }
 nav li {
   list-style-type: none;
   flex:1;
   font-size: 12px;
-  padding:1px;
+  padding:10px;
 }
 nav a {
   color:grey;
@@ -42,9 +47,14 @@ nav a {
 min-height:155px;
 } */
 main {
-  background-image: url("../assets/background.jpg");
+  /* background-image: url("../assets/background.jpg");
   height:500px;
   background-position: 0px;
-  background-size: cover;
+  background-size: cover; */
 }
+header h1 {
+  font-size:15px;
+}
+.searchbar {
+width:10%;
 }
