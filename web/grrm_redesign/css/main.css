@@ -17,6 +17,7 @@ background:#111;
 padding:25px;
 color:blanchedalmond;
 letter-spacing: 5px;
+font-size:xx-large;
 }
 nav {
   display:none;
@@ -27,12 +28,14 @@ nav {
 }
 .navbar {
   padding: 0px;
+  display:flex;
+  justify-content: center;
 }
 nav ul {
   padding-left:0;
   display:flex;
   justify-content: space-between;
-  width:100%;
+  width:50%;
   margin-bottom:0;
 }
 nav li {
@@ -45,6 +48,7 @@ nav a {
   color:grey;
   text-decoration:none;
 }
+
 .logo {
   width:10%;
   margin-right:10px;
@@ -53,10 +57,11 @@ nav a {
 min-height:155px;
 } */
 main {
-  /* background-image: url("../assets/background.jpg");
-  height:500px;
+  /* background-image: url("../assets/background.jpg"); */
   background-position: 0px;
-  background-size: cover; */
+  background-size: cover;
+  padding-right: 35px;
+  padding-left:35px;
 }
 header h1 {
   font-size:22px;
@@ -84,12 +89,13 @@ padding:25px;
   height: auto;
 }
 .text {
-  padding:50px 20px;
-
+  padding:50px 50px;
+  
 }
-.text h4 {
-  font-size:larger;
-  color:crimson
+.text h2 {
+  font-size:x-large;
+  color:goldenrod;
+  padding-bottom: 20px;
 }
 .text p {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -103,9 +109,18 @@ padding:25px;
   width:100%;
 }
 .mybutton {
-  background: blanchedalmond;
-  color:red;
+  background: goldenrod;
+  color:black;
 }
+.row {
+  
+}
+.container-fluid {
+padding-right: 50px;
+padding-left:50px;
+}
+
+
 @media only screen and (min-width:900px) {
   nav {
     display:block;
@@ -116,5 +131,11 @@ padding:25px;
   .header-top {
     text-align:center;
     width:100%;
+  }
+  .row {
+    display:block;
+  }
+  .text {
+    display:block;
   }
 }
