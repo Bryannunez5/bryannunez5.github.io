@@ -6,8 +6,8 @@ body {
   font-family: "Aboreto", serif;
   background-position: 0px;
   background-size: 600px;
-  background-color: #111;
-  color:blanchedalmond;
+  background-color: rgb(23, 21, 21);
+  color:silver;
 }
 header {
 display:flex; 
@@ -15,7 +15,7 @@ justify-content: space-between;
 align-items: center;
 background:#111;
 padding:25px;
-color:blanchedalmond;
+color:silver;
 letter-spacing: 5px;
 font-size:xx-large;
 }
@@ -25,6 +25,7 @@ nav {
   background-color: #111;
   margin-bottom: 0px;
   width:100%;
+  position: sticky;
 }
 .navbar {
   padding: 0px;
@@ -45,26 +46,32 @@ nav li {
   padding:10px;
 }
 nav a {
-  color:grey;
+  color:silver;
   text-decoration:none;
+  border-bottom: 5px solid transparent;
+  transition: 0.5s;
 }
-
+nav a:hover {
+  color:goldenrod;
+  border-color:goldenrod;
+}
 .logo {
   width:10%;
   margin-right:10px;
+  max-width: 50px;
 }
-/* .mh100 {
+.mh100 {
 min-height:155px;
-} */
+}
 main {
   /* background-image: url("../assets/background.jpg"); */
   background-position: 0px;
   background-size: cover;
-  padding-right: 35px;
-  padding-left:35px;
+  /* padding-right: 35px;
+  padding-left:35px; */
 }
 header h1 {
-  font-size:22px;
+  /* font-size:22px; */
   margin:0px;
 }
 header  {
@@ -90,7 +97,8 @@ padding:25px;
 }
 .text {
   padding:50px 50px;
-  
+  max-width: 800px;
+  margin:auto;
 }
 .text h2 {
   font-size:x-large;
@@ -112,16 +120,31 @@ padding:25px;
   background: goldenrod;
   color:black;
 }
-.row {
+.bottom_images {
+  max-width: 600px;
+  margin:auto;
+}
+.top_icons {
+  max-width: 950px;
+  margin:auto;
   
 }
-.container-fluid {
-padding-right: 50px;
-padding-left:50px;
-}
 
+.content-wrapper {
+  display:flex;
+  flex-direction: column;
+}
+.carousel_text {
+  max-width: 950px;
+  margin:auto;
+  
+}
+.hidden{display:none;}
 
 @media only screen and (min-width:900px) {
+  nav li {
+    font-size:8pt;
+  }
   nav {
     display:block;
   }
@@ -132,10 +155,33 @@ padding-left:50px;
     text-align:center;
     width:100%;
   }
-  .row {
-    display:block;
+  .mh100 {
+    padding-top: 30px;
+    }
+    .bottom_images {
+      /* padding-bottom: 30px; */
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .content-wrapper {
+    flex-direction: row;
+    max-width: 950px;
+    margin:auto;
+  }
+  .top_icons {
+    width:25%;
+    margin-top: 50px;
+    /* display:flex; */
+
   }
   .text {
-    display:block;
+    width:75%;
   }
+
+  .bottom_images {
+    display:none;
+  }
+  .hidden{display:block;}
 }
