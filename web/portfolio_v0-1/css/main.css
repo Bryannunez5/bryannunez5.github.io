@@ -12,7 +12,7 @@ header {
 }
 /*-------NavBar CSS begins-------*/
 nav {
-
+  position: sticky;
 }
 nav ul { /*FLEX PARENT*/
   padding-left:0px;
@@ -58,4 +58,9 @@ section {
 }
 #header-svg:hover {
   color:Chartreuse;
+}
+footer {
+    background-color:yellowgreen;
+    color:whitesmoke;
+    padding:30px;
 }
