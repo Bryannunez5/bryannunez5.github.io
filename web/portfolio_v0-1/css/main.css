@@ -32,11 +32,12 @@ nav li {/*FLEX CHILDERN*/
 }
 nav li:hover{
   background-color:yellowgreen;
-  color:Chartreuse;
+  color:crimson;
 }
 nav a {
   color:inherit;
   text-decoration: none;
+  padding:20px;
 }
 nav a:active {
   color:lawngreen;
@@ -57,7 +58,7 @@ section {
   transition: 1s ease;
 }
 #header-svg:hover {
-  color:Chartreuse;
+  color:crimson;
 }
 footer {
     background-color:yellowgreen;
