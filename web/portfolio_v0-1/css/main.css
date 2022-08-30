@@ -1,12 +1,12 @@
 body {
   background-color:whitesmoke;
-  color:yellowgreen;
+  color:darkolivegreen;
   margin:0;
   box-sizing: border-box;
   font-family: "futura", sans-serif;
 }
 header {
-  background-color:yellowgreen;
+  background-color:darkolivegreen;
   color:whitesmoke;
   padding:30px;
 }
@@ -31,7 +31,7 @@ nav li {/*FLEX CHILDERN*/
   transition: 0.5s;
 }
 nav li:hover{
-  background-color:yellowgreen;
+  background-color:darkolivegreen;
   color:crimson;
 }
 nav a {
@@ -47,7 +47,7 @@ section {
 }
 .card {
   margin:20px 0px;
-  border:2px solid yellowgreen;
+  border:2px solid darkolivegreen;
   padding:50px;
 }
 #header-svg  {
@@ -61,7 +61,7 @@ section {
   color:crimson;
 }
 footer {
-    background-color:yellowgreen;
+    background-color:darkolivegreen;
     color:whitesmoke;
     padding:30px;
 }
