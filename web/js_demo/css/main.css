@@ -22,6 +22,8 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 padding-left: 30px;
+flex-direction: column;
+
 }
 .header_right img {
   width: 100%;
@@ -29,11 +31,22 @@ padding-left: 30px;
 }
 .header_left {
   font-family: "Lobster";
+  font-size: 2.5em;
+  order:2;
+}
+.header_right {
+  width:170px;
+  padding:10px
 }
 /* Nav CSS */
 nav {
   display:flex;
   justify-content: center;
+  position: sticky;
+  top:0px;
+  background-color: white;
+  padding:10px;
+  
 }
  nav ul {
   display:flex;
@@ -53,6 +66,10 @@ nav {
  main {
   /* TEMP */
 /* height: 500px; */
+
+ }
+ .internal_content {
+  padding:60px;
  }
 
  /* FOOTER CSS */
@@ -61,18 +78,35 @@ display: flex;
  }
 .footer_left img {
   width: 100%;
-
+  
 }
 .footer_left {
 flex:2;
+
 }
 .footer_center {
 flex:1;
+
 }
 .footer_right {
 flex:1;
+
+}
+.footer_logo {
+width:80%;
+margin:auto;
 }
 
+footer li {
+  list-style-type: none;
+  padding:10px;
+}
+.footer_center a {
+color: #e1a177;
+}
+.footer_right a {
+  color: #e1a177;
+}
 
 
 
