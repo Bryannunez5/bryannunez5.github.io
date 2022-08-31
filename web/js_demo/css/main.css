@@ -21,14 +21,20 @@ header {
 display:flex;
 justify-content: space-between;
 align-items: center;
+padding-left: 30px;
 }
 .header_right img {
   width: 100%;
+  
 }
 .header_left {
   font-family: "Lobster";
 }
 /* Nav CSS */
+nav {
+  display:flex;
+  justify-content: center;
+}
  nav ul {
   display:flex;
   margin: 0;
@@ -36,6 +42,7 @@ align-items: center;
  }
  nav li {
   list-style-type: none;
+  padding:10px;
  }
  nav a {
   text-decoration: none;
@@ -45,7 +52,7 @@ align-items: center;
 /* MAIN CSS */
  main {
   /* TEMP */
-height: 500px;
+/* height: 500px; */
  }
 
  /* FOOTER CSS */
@@ -82,4 +89,28 @@ flex:1;
 
 .reveal {
   display:block;
+}
+
+#date_element {
+  text-align: center;
+}
+
+.time_wrapper {
+  background-color: #e1a177;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-image: url("../assets/photos/coffee.jpg");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+}
+.time_wrapper h4 {
+  font-size: 4rem;
+  text-shadow: 2px 3px 0px black;
+  font-family: "Lobster";
+
 }
