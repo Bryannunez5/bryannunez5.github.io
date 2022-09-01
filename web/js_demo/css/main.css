@@ -23,20 +23,28 @@ justify-content: space-between;
 align-items: center;
 padding-left: 30px;
 flex-direction: column;
-
+padding:10px;
 }
 .header_right img {
   width: 100%;
-  
+  transition: 2s;
+}
+.header_right img:hover {
+  transform: rotate(359deg);
 }
 .header_left {
   font-family: "Lobster";
-  font-size: 2.5em;
+  font-size: 1.5em;
   order:2;
+  padding:0px;
+  margin:0px;
+  color:#e1a177;
+  text-shadow:1px 2px 1px #fff;
 }
 .header_right {
-  width:170px;
-  padding:10px
+  width:130px;
+  padding:10px;
+
 }
 /* Nav CSS */
 nav {
@@ -59,9 +67,14 @@ nav {
  }
  nav a {
   text-decoration: none;
-  color: #e1a177;
+  color:#000;
  }
-
+ nav a:hover {
+  color:#e1a177;
+  text-decoration: underline;
+  font-weight:bold;
+  font-style:italic;
+}
 /* MAIN CSS */
  main {
   /* TEMP */
@@ -71,10 +84,27 @@ nav {
  .internal_content {
   padding:60px;
  }
+ .about_button {
+    background:#e1a177;
+    color:black;
+ }
 
+.internal_content p{
+border-left:3px solid #e1a177;
+padding-left:13px;
+}
+.mh100 {
+  min-height:100px;
+  }
+  .carousel_text {
+    max-width: 500px;
+    margin:auto;
+    padding:30px;
+  }
  /* FOOTER CSS */
  footer {
 display: flex;
+padding:50px;
  }
 .footer_left img {
   width: 100%;
@@ -106,6 +136,9 @@ color: #e1a177;
 }
 .footer_right a {
   color: #e1a177;
+}
+footer ul {
+padding:0px
 }
 
 
