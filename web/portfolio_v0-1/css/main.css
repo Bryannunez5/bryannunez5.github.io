@@ -9,6 +9,8 @@ header {
   background-color:darkolivegreen;
   color:whitesmoke;
   padding:30px;
+  display: flex;
+  align-items: center;
 }
 /*-------NavBar CSS begins-------*/
 nav {
@@ -64,4 +66,11 @@ footer {
     background-color:darkolivegreen;
     color:whitesmoke;
     padding:30px;
+}
+.header_logo img {
+width: 100%;
+
+}
+.header_logo {
+width:25%;
 }
