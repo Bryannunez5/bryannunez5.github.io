@@ -1,0 +1,91 @@
+body {
+  margin:0px;
+}
+.header {
+  display:flex;
+  justify-content:space-between ;
+  
+} 
+header {
+  background-color: green;
+  color:white;
+}
+nav {
+  padding:0px 20px;
+  background-color:darkgreen;
+  margin-bottom: 0px;
+  width:100%;
+  position: sticky;
+}
+.navbar {
+  padding: 0px;
+  display:flex;
+  justify-content: center;
+}
+nav ul {
+  padding-left:0;
+  display:flex;
+  justify-content: space-between;
+  width:50%;
+  margin-bottom:0;
+}
+nav li {
+  list-style-type: none;
+  flex:1;
+  font-size: 12px;
+  padding:10px;
+}
+nav a {
+  color:rgb(7, 11, 7);
+  text-decoration:none;
+  border-bottom: 5px solid transparent;
+  transition: 0.5s;
+}
+nav a:hover {
+  color:white;
+  border-color:white;
+}
+.mybutton {
+  background: goldenrod;
+  color:black;
+}
+main {
+  background-size: cover;
+}
+.tree img {
+  width: 100px;
+}
+.plant img {
+  width:100px;
+}
+.site_hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/green.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-bottom: 2px solid #2e4c83;
+  box-shadow: 0px 3px 3px 0px rgb(0 0 0 / 30%);
+  margin-bottom: 100px;
+}
+.hero_text {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #f8feff;
+  text-shadow: 3px 3px 5px rgb(0 0 0 / 50%);
+  text-align: center;
+}
+
+footer {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  background: green                                                                                                                                                                                                                                                                                                                                                        ;
+  padding:25px;
+  }
