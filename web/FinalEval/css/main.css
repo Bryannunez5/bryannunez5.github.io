@@ -12,7 +12,7 @@ header {
 }
 nav {
   padding:0px 20px;
-  background-color:darkgreen;
+  background-color:rgb(122, 171, 126);
   margin-bottom: 0px;
   width:100%;
   position: sticky;
@@ -48,6 +48,7 @@ nav a:hover {
 .mybutton {
   background: goldenrod;
   color:black;
+  padding:10px;
 }
 main {
   background-size: cover;
@@ -79,7 +80,15 @@ main {
   text-shadow: 3px 3px 5px rgb(0 0 0 / 50%);
   text-align: center;
 }
-
+.download {
+  padding:20px;
+}
+.learn {
+  padding:20px;
+}
+.social {
+  padding:20px;
+}
 footer {
   display:flex;
   flex-direction: column;
