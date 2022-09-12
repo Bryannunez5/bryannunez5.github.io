@@ -38,11 +38,19 @@
     </nav>
     <main>
       <section>
-        <div class="card">
+        <div class="card site_hero" id="site_hero">
           <h3>Welcome</h3>
           <p>Thank you for visiting my portfolio, feel free to look around.</p>
+          <hr>
+          <section>
+            <div class="Grad_countdown">
+            <h3 class="header_count"> Graduation Date</h3>
+            <div id="date_element"></div>
+          </div>
+          </section>
         </div>
       </section>
+
 
       <div class="carousel_text">
         <div id="carouselExampleIndicators" class="carousel slide mh100" data-bs-ride="true">
@@ -87,9 +95,15 @@
       <p>© 2022 BRYAN NUNEZ-VILLACRES. ALL RIGHTS RESERVED.</p>
     </footer>
     </div>
-    <script src="./js/navbar.js">
-
+    <script>
+      var z = setInterval(function(){
+        var header = document.getElementById("site_hero");
+        header.classList.toggle("zoom");
+      }, 10000);
     </script>
+
+    <script src="./js/navbar.js"></script>
+    <script src="./js/countdown.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
   </body>
