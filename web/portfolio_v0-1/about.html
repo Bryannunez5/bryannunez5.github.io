@@ -3,6 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>PlaceHolder</title>
   </head>
@@ -11,6 +12,15 @@
       <header>
         
           <h1>About</h1>
+          <div class="drop_down" id="menu_drop">
+            <ul>
+              <li> <a href="./index.html">Home</a> </li>
+              <li> <a href="./portfolio.html">Portfolio</a> </li>
+              <li> <a href="./about.html">About</a> </li>
+              <li> <a href="./contact.html">Contact</a> </li>
+            </ul>
+          </div>
+          <i class="bi bi-list nav_menu" id="menu" onClick="toggleNav()"></i>
       </header>
       <nav>
         <ul>
@@ -24,8 +34,11 @@
         
         <section>
           <div class="card">
-            <h3>Welcome</h3>
-            <p>Thank you for visiting my portfolio, feel free to look around.</p>
+            <h3>Hello There!</h3>
+            <p>My name is Bryan Nunez, I'm currently 25 years old, born in central New Jersey currently living in Orlando, Florida.
+              I've been in school for Graphic Design/ Web Development for about a year.
+            
+            Looking for new Challenges in my life to improve my skills and myself. I'm prepared to do my best. I believe I could portray my passion through my work.</p>
           </div>
           
         </section>
@@ -34,6 +47,8 @@
         <p>© 2022 BRYAN NUNEZ-VILLACRES. ALL RIGHTS RESERVED.</p>
       </footer>
       </div>
-    
+      <script src="./js/navbar.js">
+
+      </script>
   </body>
 </html>

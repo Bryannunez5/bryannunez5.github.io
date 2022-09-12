@@ -3,6 +3,9 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <title>PlaceHolder</title>
   </head>
@@ -10,6 +13,15 @@
     <div class="main">
       <header>
           <h1>Portfolio</h1>
+          <div class="drop_down" id="menu_drop">
+            <ul>
+              <li> <a href="./index.html">Home</a> </li>
+              <li> <a href="./portfolio.html">Portfolio</a> </li>
+              <li> <a href="./about.html">About</a> </li>
+              <li> <a href="./contact.html">Contact</a> </li>
+            </ul>
+          </div>
+          <i class="bi bi-list nav_menu" id="menu" onClick="toggleNav()"></i>
       </header>
       <nav>
         <ul>
@@ -23,16 +35,49 @@
         
         <section>
           <div class="card">
-            <h3>Welcome</h3>
-            <p>Thank you for visiting my portfolio, feel free to look around.</p>
+            <h3 class="center_text">Illustrator</h3>
+            <hr>
+            <div class="container text-center">
+              <div class="row row-cols-2">
+                <div class="col"><img src="./assets/illustrations/Movie_poster_Final-copy.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col"><p>For this assignment I had to make a minimalist movie poster and I picked to make the new Doctor Strange Multiverse of Maddness movie.</p> </div>
+                <div class="col"><img src="./assets/illustrations/Wishtree_Book_Cover-copy-copy copy.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">For this assignment I had to make a book cover for the Wishing Tree.</div>
+                <div class="col"><img src="./assets/illustrations/Foodie_magazine_cover copy.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">For this assignment I had to design a food magazine for pizza.</div>  
+            </div>
+            <h3 class="mt-5 center_text">Photoshop</h3>
+            <hr>
+            <div class="container text-center">
+              <div class="row row-cols-2">
+                <div class="col"><img src="./assets/photoshop/EN_MoviePosterProject.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">For this assignment I had to make a realist movie poster using photos. </div>
+                <div class="col"><img src="./assets/photoshop/EN_Photoshop-Collage-Project.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">For this assignment I had to create a collage, I made my collage while listening to music and i wanted to capture that feeling that music gives you.</div>
+                <div class="col"><img src="./assets/photoshop/EN_Product_photoshoot_Print_Ad copy.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="col">For this assignment I took pictures of a product and made an ad for the product.  </div>
+              </div>
+                
+            </div>
           </div>
           
         </section>
+      
       </main>
       <footer>
         <p>© 2022 BRYAN NUNEZ-VILLACRES. ALL RIGHTS RESERVED.</p>
       </footer>
       </div>
-    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./js/navbar.js">
+
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>

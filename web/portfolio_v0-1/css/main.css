@@ -33,6 +33,13 @@ header {
   margin:10% auto;
   max-width:1500px;
 }
+.carousel_text {
+  max-width: 950px;
+  margin:auto;
+}
+.mh100 {
+  min-height:155px;
+  }
 /*-------NavBar CSS begins-------*/
 nav {
   position: sticky;
@@ -62,21 +69,26 @@ nav a {
   text-decoration: none;
   padding:20px;
 }
-nav a:active {
-  color:rgba(125, 32, 32, 0.72);
-}
+
 .drop_down {
   position: absolute;
-  background-color:rgb(58, 56, 56) ;
+  background-color:rgb(33, 34, 32);
   padding: 20px;
   display: none;
   width: 150px;
   top: 0px;
   left:0px;
   height:100%;
+  z-index: 99;
+
 }
 .drop_down li{
  padding-top: 50px;
+ list-style-type: none;
+}
+.drop_down a {
+  text-decoration: none;
+  color:#349966;
 }
 .reveal {
   display: block;
@@ -88,6 +100,15 @@ section {
   margin:20px 0px;
   border:2px solid rgb(33, 34, 32);
   padding:50px;
+}
+.center_text {
+  text-align: center;
+  color: #349966;
+  font-family: indie Flower;
+}
+.socials .bi {
+  margin: 0px 10px;
+  font-size: 30px;
 }
 #header-svg  {
   fill:currentColor;
@@ -110,6 +131,13 @@ width: 100%;
 }
 .header_logo {
 width:25%;
+}
+.col {
+  align-items: center;
+  display:flex;
+} 
+.socials {
+  color: #349966;
 }
 
 

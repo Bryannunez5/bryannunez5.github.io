@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <!-- <link rel="icon" href="./assets/icon1.svg"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <title>PlaceHolder</title>
   </head>
@@ -36,21 +37,51 @@
       </ul>
     </nav>
     <main>
-      <!-- the images need to flip to the explaination when hovering over it -->
       <section>
         <div class="card">
           <h3>Welcome</h3>
           <p>Thank you for visiting my portfolio, feel free to look around.</p>
         </div>
-        <!-- <div class="button-wrapper">
-          <a href="./booking.html">
-            <button>Go to Button</button>
-          </a>
-          <a href="./information.html">
-            <button>Go to Info</button>
-          </a>
-        </div> -->
       </section>
+
+      <div class="carousel_text">
+        <div id="carouselExampleIndicators" class="carousel slide mh100" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/illustrations/EN_Design_Challenge.png " class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/illustrations/Movie_poster_Final-copy.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/illustrations/EN_DesignChallenge_3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/illustrations/EN_FreshProduceAd.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/illustrations/Foodie_magazine_cover copy.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+          </div>
+
+      
     </main>
     <footer>
       <p>© 2022 BRYAN NUNEZ-VILLACRES. ALL RIGHTS RESERVED.</p>
@@ -59,5 +90,7 @@
     <script src="./js/navbar.js">
 
     </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
   </body>
 </html>
